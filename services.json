@@ -1,10 +1,57 @@
 [
   {
-    "service_id": "",
-    "name": "",
-    "img": "",
-    "details": "",
-    "rating": "",
-    "rent": ""
+    "_id": 1,
+    "service_id": "1",
+    "name": "Wifi",
+    "img": "https://th.bing.com/th/id/R.f2b085b07863df415db61426d55a3444?rik=PLLkM0%2bSO%2fjhJw&riu=http%3a%2f%2fxlntgroup.net%2fwp-content%2fuploads%2f2017%2f08%2fWifi-generic-600x300.jpg&ehk=kJzQQam2E6Md1fb0hXNRSbAsTcgTw5NwjsCeLmrZhPo%3d&risl=&pid=ImgRaw&r=0",
+    "details": "One business that grew out of WiFi was the Wireless ISP (WISP). This is an idea of selling an Internet access service using wireless LAN technology and a shared Internet connection in a public location designated as a hot spot.    From a technical standpoint, access to the service is limited based on the transmission range of the WLAN technology. You have to be in the hot spot (i.e. within 100m of the access point) to use it. From a business standpoint, users either subscribe to a particular carrier's service for a monthly fee or access the service on a demand basis at a fee per hour. While the monthly fee basis is most cost effective, there are few intercarrier access arrangements, so you have to be in a hot spot operated by your carrier in order to access your service.",
+    "rating": "9",
+    "price": "1200"
+  },
+  {
+    "_id": 2,
+    "service_id": "2",
+    "name": "Electricity",
+    "img": "https://www.liveenhanced.com/wp-content/uploads/2020/11/electrical-services-6.jpg",
+    "details": "Municipal electricity distributors face a range of challenges in the current fast-changing electricity industry landscape. Amongst these are: accommodating embedded generation, integrating electricity efficiency, increasing informal settlement electrification, adjusting tariffs appropriately, and avoiding damaging revenue loss in the process.1. ELECTRICAL SERVICES.2. ELECTRICAL SERVICES DEFINATION Electrical services is an mode which provides us the electricity that is required by us to run electrical appliances, in industries to provide electricity to run the machineries , in commercial places to run the mechanical services. Use of electricity: Residential Building: Lights , Fans, Heaters, Television, Refrigerators etc. Industrial Buildings: Machineries, Welding, Electroplating etc. Commercial Buildings: Lifts, Escalators, Alarm Systems, Advertising Displays etc.3. Energy Transmission and Distribution4. TERMS RELATED TO ELECTRICAL CIRCUIT • Electric current:The electric current means the flow of electrons from one end of a conductor to another end. Its symbol is ‘I’. And its unit is ampere. Current (I) = Q/t = Ampere • Ampere:When charge of 1 coulomb passes through a point in 1 seconds, it is said that a current of 1 Ampere is flowing. Ampere= Coulomb/Second.5. • Potential Difference:Work/energy Required to be done to move unit charge from one point to another in the circuit is called voltage or potential difference Voltage or Potential Difference=W/Q =Work/Charge • Conductors: Material which allow the current to flow easily through them are called Conductors. • Insulator: Material which greatly oppose the current flow i.e do not allow the current to pass through it are called Insulators.",
+    "rating": "8",
+    "price": "1000"
+  },
+  {
+    "_id": 3,
+    "service_id": "4",
+    "name": "Water",
+    "img": "https://th.bing.com/th/id/R.148e56fb8c6fc659c6732edca66f7f8a?rik=mWRyybKLE53Tmg&riu=http%3a%2f%2fwww.austintexas.gov%2fsites%2fdefault%2ffiles%2fdreamstime_7297149_0.jpg&ehk=4rtE7ZF5hNHpzXFy7kcZvfqG2PHij9wZPc03QNnuEmw%3d&risl=&pid=ImgRaw&r=0",
+    "details": "Due to a lapse in Federal funding, the U.S. Geological Survey must suspend those parts of its data collection and distribution processes requiring human intervention. However, automated reporting and serving of telemetered data will continue.Users may note some degradation in the quality and completeness of real-time streamflow, groundwater and water-quality data from some reporting stations due to the suspension of field calibrations and adjustments, especially as high flows occur, aquatic vegetation becomes dominant, or ice forms in high altitude streams. The USGS will continue to monitor some performance aspects of its network using a skeleton workforce.",
+    "rating": "10",
+    "price": "200"
+  },
+  {
+    "_id": 4,
+    "service_id": "3",
+    "name": "Gas",
+    "img": "https://th.bing.com/th/id/R.b367e6df5340bc08d071246295e05308?rik=v9SZrp9jMyidBw&pid=ImgRaw&r=0",
+    "details": "Here at Gas Service Center, you can count on us! We operate and provide our services in Southwest and Central Florida. We are an installation and service company for your all your natural gas and propane systems.Call us to schedule a service or repair today! Ask us what we can do to help your equipment last longer and run more efficiently, along with managing the cost and inconvenience of home system repairs.Safety controls need to be tested frequently.Your gas systems should be tested for leaks.Visually inspect and report propane tanks that appear to be rusty, dilapidated or unleveled.Get a complete system check done annually by a qualified technician.We are a gas service company offering our services to your existing or new installation propane and natural gas systems, and repairs. We provide these services to both residential and commercial customers who are within the Southwest and Central Florida areas.",
+    "rating": "7",
+    "price": "800"
+  },
+
+  {
+    "_id": 5,
+    "service_id": "5",
+    "name": "Single Bed Room",
+    "img": "https://images.justlanded.com/housing_images/Malta/For-Rent_Apartments/appartment-in-Bkara-uni-hosp-area-2434103-8077855/photo/scaled_135988828851600037255.jpg",
+    "details": "The single bedroom is ideal for an individual needing a bed to rest their head after a long day. This space provides a twin bed and allows its guest to control the heating/air conditioning to ensure maximum comfort. The wall mounted television, equipped with Xfinity Cable, ensures that you never miss a show!The single suite contains a semi-private bathroom with a bathtub/shower combo, adjacent to the suite.This suite charges $80.00 per night.If you are interested reserving this space, please complete the Guest Suite request form and we will process your request accordingly.havenguestsuite-f19-27.jpgIn the event that the guest suite is no longer needed, please email us at uestSuites@northwestern.edu no later than 3:00pm the day before your arrival and we will cancel your reservation without penalty.  Any cancellations within 24 hours of the check-in time will be subject to a $50.00 fee.",
+    "rating": "10",
+    "price": "2000"
+  },
+  {
+    "_id": 6,
+    "service_id": "6",
+    "name": "Double Bed Room",
+    "img": "https://th.bing.com/th/id/OIP.MtyzWkzrcULRW3p2uygw0AHaE8?pid=ImgDet&rs=1",
+    "details": "Whether you’re looking to buy a new bed for yourself, for a loved one, or you’re just generally curious about bed sizes, it can get a little confusing when you’re coming across names and terms you’ve never heard of during your search. We’re here to make the mattress industry language easier to understand, so we should start with a simple definition; a double bed size is what you’d call any mattress that’s small, but can still fit two people.Now that you have a better understanding, let’s give you a little perspective on its size and who we think double beds are best for.Double Bed vs Full Bed People like to use interchangeable names for bed sizes, similar to the way Starbucks likes to use a different name for their medium size drink. You’re supposed to refer to the size as “grande” when you order your coffee, but you’ll essentially get the same amount of liquid inside your cup. You can think of a double bed and a full mattress in the same way. A full mattress and a double bed have the same dimensions, 54 inches by 75 inches.",
+    "rating": "10",
+    "price": "3200"
   }
 ]
