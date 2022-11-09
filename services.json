@@ -1,6 +1,5 @@
 [
   {
-    "_id": 1,
     "service_id": "1",
     "name": "Wifi",
     "img": "https://th.bing.com/th/id/R.f2b085b07863df415db61426d55a3444?rik=PLLkM0%2bSO%2fjhJw&riu=http%3a%2f%2fxlntgroup.net%2fwp-content%2fuploads%2f2017%2f08%2fWifi-generic-600x300.jpg&ehk=kJzQQam2E6Md1fb0hXNRSbAsTcgTw5NwjsCeLmrZhPo%3d&risl=&pid=ImgRaw&r=0",
@@ -9,7 +8,6 @@
     "price": "1200"
   },
   {
-    "_id": 2,
     "service_id": "2",
     "name": "Electricity",
     "img": "https://www.liveenhanced.com/wp-content/uploads/2020/11/electrical-services-6.jpg",
@@ -18,7 +16,6 @@
     "price": "1000"
   },
   {
-    "_id": 3,
     "service_id": "4",
     "name": "Water",
     "img": "https://th.bing.com/th/id/R.148e56fb8c6fc659c6732edca66f7f8a?rik=mWRyybKLE53Tmg&riu=http%3a%2f%2fwww.austintexas.gov%2fsites%2fdefault%2ffiles%2fdreamstime_7297149_0.jpg&ehk=4rtE7ZF5hNHpzXFy7kcZvfqG2PHij9wZPc03QNnuEmw%3d&risl=&pid=ImgRaw&r=0",
@@ -27,7 +24,6 @@
     "price": "200"
   },
   {
-    "_id": 4,
     "service_id": "3",
     "name": "Gas",
     "img": "https://th.bing.com/th/id/R.b367e6df5340bc08d071246295e05308?rik=v9SZrp9jMyidBw&pid=ImgRaw&r=0",
@@ -37,7 +33,6 @@
   },
 
   {
-    "_id": 5,
     "service_id": "5",
     "name": "Single Bed Room",
     "img": "https://images.justlanded.com/housing_images/Malta/For-Rent_Apartments/appartment-in-Bkara-uni-hosp-area-2434103-8077855/photo/scaled_135988828851600037255.jpg",
@@ -46,7 +41,6 @@
     "price": "2000"
   },
   {
-    "_id": 6,
     "service_id": "6",
     "name": "Double Bed Room",
     "img": "https://th.bing.com/th/id/OIP.MtyzWkzrcULRW3p2uygw0AHaE8?pid=ImgDet&rs=1",

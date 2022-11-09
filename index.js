@@ -3,8 +3,7 @@ const app = express();
 const { MongoClient, ServerApiVersion } = require("mongodb");
 require("dotenv").config();
 var cors = require("cors");
-
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 // middle wares
 app.use(cors());
@@ -19,17 +18,20 @@ const client = new MongoClient(uri, {
   useUnifiedTopology: true,
   serverApi: ServerApiVersion.v1,
 });
-client.connect((err) => {
-  const collection = client.db("test").collection("devices");
-  // perform actions on the collection object
-  client.close();
-});
+async function run() {
+  try {
+    const serviceCollection = client.db("rentServices").collection("services");
 
-const myServices = require("./services.json");
-
-app.get("/services", (req, res) => {
-  res.send(myServices);
-});
+    app.get("/services", async (req, res) => {
+      const query = {};
+      const cursor = serviceCollection.find(query);
+      const services = await cursor.toArray();
+      res.send(services);
+    });
+  } finally {
+  }
+}
+run().catch((err) => console.log(err));
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
