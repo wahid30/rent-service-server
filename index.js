@@ -38,11 +38,44 @@ async function run() {
       res.send(service);
     });
 
+    app.get("/reviews", async (req, res) => {
+      // console.log(req.query);
+      let query = {};
+      if (req.query.email) {
+        query = {
+          email: req.query.email,
+        };
+      }
+      const cursor = userReview.find(query);
+      const review = await cursor.toArray();
+      res.send(review);
+    });
+
     // review api
     app.post("/reviews", async (req, res) => {
       const review = req.body;
       // console.log("this is", review);
       const result = await userReview.insertOne(review);
+      res.send(result);
+    });
+
+    app.patch("/reviews/:id", async (req, res) => {
+      const id = req.params.id;
+      const status = req.body.status;
+      const query = { _id: ObjectId(id) };
+      const updatedDoc = {
+        $set: {
+          status: status,
+        },
+      };
+      const result = await orderCollection.updateOne(query, updatedDoc);
+      res.send(result);
+    });
+
+    app.delete("/reviews/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: ObjectId(id) };
+      const result = await orderCollection.deleteOne(query);
       res.send(result);
     });
   } finally {
