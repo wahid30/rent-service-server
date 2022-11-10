@@ -68,14 +68,40 @@ async function run() {
           status: status,
         },
       };
-      const result = await orderCollection.updateOne(query, updatedDoc);
+      const result = await userReview.updateOne(query, updatedDoc);
       res.send(result);
     });
 
     app.delete("/reviews/:id", async (req, res) => {
       const id = req.params.id;
       const query = { _id: ObjectId(id) };
-      const result = await orderCollection.deleteOne(query);
+      const result = await userReview.deleteOne(query);
+      res.send(result);
+    });
+
+    // for update
+    app.get("/reviews/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: ObjectId(id) };
+      const service = await userReview.findOne(query);
+      res.send(service);
+    });
+
+    app.put("/reviews/:id", async (req, res) => {
+      const id = req.params.id;
+      const filter = { _id: ObjectId(id) };
+      const user = req.body;
+      // console.log(user);
+      const option = { upsert: true };
+      const updateUser = {
+        $set: {
+          name: user.name,
+          photo: user.photo,
+          rating: user.userRating,
+          message: user.message,
+        },
+      };
+      const result = await userReview.updateOne(filter, updateUser, option);
       res.send(result);
     });
   } finally {
